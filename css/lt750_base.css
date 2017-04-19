@@ -1,0 +1,146 @@
+body{
+    background: #efeff4;
+}
+header{
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+    background: #313131;
+}
+header .name{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding-left: 5%;
+    line-height: 50px;
+    font-size: 1.5rem;
+    color: #f3f3f3;
+}
+header nav{
+    float: left;
+    width: 45%;
+    height: 100%;
+}
+header nav ul{
+    width: 100%;
+    height: 100%;
+}
+header nav ul li{
+    float: left;
+    width: 17%;
+    height: 100%;
+    margin: 0 4%;
+}
+header nav ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+header nav ul li img{
+    width: 100%;
+    margin-top: 30%;
+}
+.list_message{
+    position: relative;
+}
+.list_message a span{
+    position: absolute;
+    right: -5px;
+    top: 8px;
+    display: block;
+    width: 14px;
+    height: 14px;
+    line-height: 14px;
+    text-align: center;
+    background: red;
+    color: #f3f3f3;
+    font-size: 12px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+}
+
+
+footer{
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border-top: 1px solid #cfced3;
+    background: #fff;
+}
+footer ul{
+    width: 100%;
+    height: 100%;
+}
+footer ul li{
+    width: 17%;
+    height: 100%;
+    margin: 0 4%;
+    float: left;
+}
+
+
+footer ul li a {
+    display: block;
+    width: 100%;
+    height: 20px;
+    padding-top: 30px;
+    text-align: center;
+    line-height: 20px;
+    color: #7d7d7d;
+    font-size: 0.8rem;
+}
+.footer_message.active a{
+    background: url("../img/footer_message2.jpg") no-repeat 50% 5px;
+    background-size: 32px;
+    color: #005fd3;
+}
+.footer_work.active a{
+    color: #005fd3;
+}
+.footer_contact.active a{
+    background: url("../img/footer_contact2.png") no-repeat 50% 5px;
+    background-size: 32px;
+    color: #005fd3;
+}
+.footer_mine.active a{
+    background: url("../img/footer_mine2.png") no-repeat 50% 5px;
+    background-size: 32px;
+    color: #005fd3;
+}
+.footer_message a{
+    position: relative;
+    background: url("../img/footer_message1.png") no-repeat 50% 5px;
+    background-size: 32px;
+}
+.footer_work a{
+    background: url("../img/footer_work1.png") no-repeat 50% 5px;
+    background-size: 32px;
+}
+.footer_contact a{
+    background: url("../img/footer_contact1.jpg") no-repeat 50% 5px;
+    background-size: 32px;
+}
+.footer_mine a{
+    background: url("../img/footer_mine1.jpg") no-repeat 50% 5px;
+    background-size: 32px;
+}
+.footer_message a span{
+    position: absolute;
+    right: 12%;
+    top: 0px;
+    display: block;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    background: red;
+    color: #f3f3f3;
+    font-size: 12px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+}
+

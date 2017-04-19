@@ -1,0 +1,86 @@
+.main{
+    width: 100%;
+    height: auto;
+}
+.main:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.main ul{
+    width: 100%;
+}
+.main ul li{
+    width:100%;
+    height: 56px;
+    border-bottom: 1px solid #d3d2d6;
+    background: #fff;
+}
+.main ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.left{
+    width: 85%;
+    height: 100%;
+    float: left;
+}
+.message_photo{
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+.message_photo img{
+    width: 60%;
+    margin: 0 20%;
+    margin-top: 10%;
+}
+.message_name, .message_content{
+    width: 80%;
+    height: 50%;
+    float: left;
+}
+.message_name{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #1b1b1b;
+    line-height: 28px;
+}
+.message_content{
+    overflow: hidden;
+    font-size: 0.9rem;
+    color: #707070;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.right{
+    width: 15%;
+    height: 100%;
+    float: right;
+    text-align: center;
+}
+.message_time{
+    width: 100%;
+    height: 50%;
+    line-height: 28px;
+    color: #7d7d7d;
+    font-size: 0.9rem;
+}
+.message_count{
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    text-align: center;
+    background: red;
+    color: #f3f3f3;
+    font-size: 12px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius:50%;
+    border-radius:50%;
+}
+
+
+

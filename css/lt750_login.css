@@ -1,0 +1,55 @@
+body {
+    overflow: hidden;
+    background: -webkit-linear-gradient(#00a2d4, #afb36b);
+}
+div{
+    width: 80%;
+    height: 180px;
+    margin: 40% 10%;
+}
+p{
+    width: 100%;
+    height: 60px;
+}
+span{
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    line-height: 60px;
+    font-size: 1.4rem;
+    color: #f3f3f3;
+}
+.text{
+    width: 65%;
+    height: 50%;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    outline: none;
+}
+.btn_box{
+    margin-top: 10%;
+}
+.btn{
+    width: 30%;
+    height: 70%;
+    font-size: 1.5rem;
+    margin: 0 8%;
+    background: #00a619;
+    color: #f3f3f3;
+    border: none;
+    outline:none;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow:  2px 2px 2px #aaa;
+    -moz-box-shadow:  2px 2px 2px #aaa;
+    box-shadow:  2px 2px 2px #aaa;
+    text-shadow: 2px 2px 2px #72e38c;
+}
+.forget_password{
+    font-size: 1.2rem;
+    margin-left: 8%;
+    color: #555;
+}
+
+

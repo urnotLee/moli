@@ -1,0 +1,171 @@
+header{
+    width: 100%;
+    height: 50px;
+    padding-top: 20px;
+    background: #313131;
+}
+header a{
+    display: block;
+    float: left;
+    width: 15%;
+    height: 70%;
+    padding-top: 15px;
+    margin-left: 5%;
+}
+.exit_icon{
+    display: block;
+    float: left;
+    width: 12px;
+    height: 12px;
+    margin-top: 5px;
+    border-left: 3px solid #f3f3f3;
+    border-top: 3px solid #f3f3f3;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.exit{
+    font-size: 1.1rem;
+    color: #f3f3f3;
+}
+.title{
+    float: left;
+    width: 35%;
+    height: 100%;
+    line-height: 50px;
+    text-align: right;
+    font-size: 1.5rem;
+    color: #f3f3f3;
+}
+.main{
+    width: 94%;
+    height: auto;
+    padding: 0 3%;
+}
+.main:after{
+    display: block;
+    content: '';
+    clear: both;
+}
+li:after{
+    display: block;
+    content: '';
+    clear: both;
+}
+.main ul{
+    width: 100%;
+    height: auto;
+}
+.main ul li{
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+.other div{
+    float: left;
+    margin: 0 10px;
+}
+.self div{
+    float: right;
+    margin: 0 10px;
+}
+.talk_user{
+    height: 26px;
+    line-height: 26px;
+    padding: 0 5px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    color: #fff;
+}
+.other .talk_user{
+    background: #999;
+}
+.self .talk_user{
+    background: #ccc;
+}
+.talk_content{
+    width: 45%;
+    position: relative;
+    padding: 0 3%;
+    line-height: 26px;
+    border: 1px solid #aaa;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+.other .talk_content{
+    background: #e1da27;
+}
+.self .talk_content{
+    background: #20c932;
+}
+.talk_icon{
+    display: block;
+    position: absolute;
+    top: 10px;
+    width: 5px;
+    height: 5px;
+    border-right: 1px solid #aaa;
+    border-top: 1px solid #aaa;
+
+}
+.other .talk_icon{
+    left: -4px;
+    -webkit-transform: rotate(-135deg);
+    -moz-transform: rotate(-135deg);
+    -ms-transform: rotate(-135deg);
+    -o-transform: rotate(-135deg);
+    transform: rotate(-135deg);
+    background: #e1da27;
+}
+.self .talk_icon{
+    right: -4px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background: #20c932;
+}
+.talk_time{
+    line-height: 30px;
+    color: #7d7d7d;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    border-top: 1px solid #d3d2d6;
+}
+.text_box{
+    width: 67%;
+    height: 30px;
+    margin: 10px 5%;
+    padding-left: 3%;
+    border: 1px solid #aaa;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    outline: none;
+    font-size: 1.4rem;
+}
+.btn{
+    width: 15%;
+    height: 30px;
+    font-size: 1.1rem;
+    background-color: #4c5fff;
+    border: none;
+    outline: none;
+    color: #fff;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius: 5px;
+    -webkit-box-shadow:  1px 1px 2px #03ccc3;
+    -moz-box-shadow: 1px 1px 2px #03ccc3;
+    box-shadow:  1px 1px 2px #03ccc3;
+}
